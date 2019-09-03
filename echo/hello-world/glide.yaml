@@ -1,4 +1,4 @@
-package: github.com/nhannguyen09cntt/hello-world
+package: hello-world
 import:
 - package: github.com/labstack/echo
   version: v4.1.6

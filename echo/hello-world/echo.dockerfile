@@ -12,6 +12,6 @@ RUN sh install_glide.sh
 
 WORKDIR src/hello-world
 RUN glide install
-
-RUN go build -o app main.go
-CMD ./app
+WORKDIR ..
+RUN go install hello-world
+CMD hello-world

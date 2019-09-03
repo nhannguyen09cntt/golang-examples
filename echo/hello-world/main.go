@@ -1,8 +1,9 @@
 package main
 
 import (
+	"hello-world/handlers"
+
 	"github.com/labstack/echo"
-	"github.com/nhannguyen09cntt/hello-world/handlers"
 )
 
 func main() {
