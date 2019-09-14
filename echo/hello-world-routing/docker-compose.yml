@@ -1,0 +1,8 @@
+version: '3'
+services:
+  webserver:
+    build:
+        context: .
+        dockerfile: ./echo.dockerfile
+    ports:
+      - 8080:8080
